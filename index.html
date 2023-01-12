@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <title>Personal Portfolio</title>
+
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <span style="color: plum;">......</span>
+                </div>
+                <ul class="navItems">
+                    <li><a href="#">home</a></li>
+                    <li><a href="../aboutme.html">about</a></li>
+                    <li><a href="../skills.html">Skills</a></li>
+                   
+                </ul>
+                <div class="links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </nav>
+
+            <div class="wrapper">
+                <div class="cols cols0">
+                    <span class="topline">Hello</span>
+                    <h1>I'm <span class="multiText">Coder</span></h1>
+                    <p>Welcome to my Portfolio.</p>
+                    <div class="btns">
+                        <a href="ANIRUDDH A. SHARMA's Resume.pdf" download="RESUME">
+                        <button type="button">Resume</button>
+                        </a>
+                        <a href="https://github.com/Ani6107">
+                        <button>My Projects</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="cols cols1">
+                    <div class="imgbox">
+                        <img src="pngegg.png" id="splash">
+                        <img src="My project.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            var typingEffect = new Typed(".multiText", {
+                strings : [" coder", " student", " designer"],
+                loop : true,
+                typeSpeed : 200,
+                backSpeed : 100,
+                backDelay : 1500
+            })
+        </script>
+    </body>
+</html>
